@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>border styles</title>
+</head>
+<style>
+    .border{
+        border: 3px;
+        border-radius: 15px;
+        border-color: rgb(0, 0, 0);
+        background-color: rgb(238, 161, 225);
+        overflow: auto;
+    }
+    .item{
+        text-decoration: none;
+        color: rgb(251, 255, 0);
+    }
+    li{
+        float:left;
+        list-style: none;
+        padding: 3px 13px;
+    
+    }
+    .item:hover{
+        color: rgb(16, 75, 1);
+    }
+    .item1{
+        border:2px solid rgb(255, 208, 0);
+        border-radius: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 200;
+        float: left;
+        background-color: rgb(238, 255, 0);
+        font-size: 12.5px;
+        width:45%;
+        margin: 10px;
+        padding:10px;
+        text-align: justify;
+        color:white;
+    }
+    .item2{
+        border:2px solid rgb(13, 80, 168);
+        border-radius: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: rgb(6 255 206);
+        font-size: 12.5px;
+        float:right;
+        width:45%;
+        margin-right: 10px;
+        color: white;
+        font-weight: 200;
+        padding:10px;
+        text-align: justify;
+    }
+    .item3{
+        border:2px solid rgb(117, 6, 99);
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(255 0 221);
+        font-size: 12.5px;
+        clear:both;
+        margin: 20px;
+        color: white;
+        font-weight: 200;
+        padding:10px;
+        text-align: justify;
+
+    }
+    div{
+        border:4px solid red;
+        margin: 0 100px;
+        border-radius: 25px;
+        background-color: rgb(255 196 196);
+    }
+
+</style>
+<body>
+    <h1 class="fontstyling">Here is the tutorial for using border</h1>
+    <ul class="border">
+        <li><a href="" class="item">Home</a></li>
+        <li><a href="" class="item">Services</a></li>
+        <li><a href="" class="item">Contact</a></li>
+        <li><a href="" class="item">About</a></li>
+        <input class="item" type="text" style="border:3px solid purple ;border-radius: 15px; 
+        float: right; width: 500px; margin: 3px 13px;" placeholder="Idhar search kar bhai &#128269" >
+        </ul>
+        <div>
+        <p class="item1">Here we used two borders one for whole tool bas and one for whole search bar. Now 
+            this paragraph uses the border to just decorate itself. thi will make you understand the
+        use of float and clear also in this single webpage only int another two paragraphs we will use 
+        a customized text called lorem 32 also used a s a content to print just to check in if there is 
+    any error in code or not</p>
+    <p class="item2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem explicabo quas 
+        reprehenderit porro beatae unde rem molestiae eveniet blanditiis nobis nihil dolorem del
+         eniti eos voluptates illo amet, ea a, optio vero pariatur!</p>
+    <p class="item3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptas 
+            exercitationem est similique vel cumque rerum? Vitae rerum reiciendis, velit odit iusto 
+            doloremque quasi temporibus veniam asperiores ex dignissimos. Vel est dolore deleniti.
+             Laborum dolorum debitis repellendus ullam suscipit totam, optio officiis dolorem, similique
+              possimus harum repellat dicta atque eveniet.</p>
+            </div>
+</body>
+</html>
